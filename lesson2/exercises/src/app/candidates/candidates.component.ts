@@ -22,11 +22,12 @@ export class CandidatesComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  // Code the addToCrew function here:
-
-
-  // BONUS: Code the changeMissionName function here:
-
+// Code the addToCrew function here:
+ addToCrew(person:object){
+  if( this.crew.includes(person) === false){
+     this.crew.push(person)
+   };
+  // BONUS: Code the changeMissionName function he
+};
 
 }
